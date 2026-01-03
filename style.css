@@ -20,14 +20,29 @@ body {
 }
 
 img {
-  width: 200px;
-  height: auto;
+  height: 100px;
+  width: 160px;
+  margin: 10px;
+}
+
+ul {
+  margin-left: 50px;
+  display: inline-flex;
 }
 
 li {
+  width: fit-content;
   list-style: none;
+  border: 2px solid blue;
+  text-align: center;
 }
 
 a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  animation: 10s green linear infinite;
+  background: gray;
+  text-decoration: none;
   display: block;
 }
